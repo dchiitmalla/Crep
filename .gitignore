@@ -1,33 +1,43 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Created by https://www.gitignore.io/api/w,windows,notepadpp,java
 
-# Precompiled Headers
-*.gch
-*.pch
+#!! ERROR: w is undefined. Use list command to see defined gitignore types !!#
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Folder config file
+Desktop.ini
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Debug files
-*.dSYM/
-*.su
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+### NotepadPP ###
+# Notepad++ backups #
+*.bak
+
+
+### Java ###
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
